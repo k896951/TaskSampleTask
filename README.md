@@ -8,6 +8,11 @@
 FakeChan22.exeと同じフォルダに Extend フォルダを作成してこの中に TaskSampleTask.dll をコピーしてから偽装ちゃん22を起動してください。
 偽装ちゃん22のリスナ設定に 「SampleTask」が追加されます。
 
+![image](https://user-images.githubusercontent.com/22530106/192790294-6aeab66f-8a90-48f1-a491-b9c8a4fb942d.png)
+
+![image](https://user-images.githubusercontent.com/22530106/192790066-308414b1-286c-43d2-9c9f-8f5452baf236.png)
+
+
 ## 拡張リスナコンパイル方法（VisualStudio）
 
 TaskSampleTask.csのコピーされているフォルダに、偽装ちゃん22のアーカイブに含まれるFakeChan22TaskBase.dllをコピーしてください。
