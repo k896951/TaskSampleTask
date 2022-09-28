@@ -17,6 +17,8 @@ Visual Studioでプロジェクトを開いたら参照設定を確認し、Fake
 
 ## DLL(Assembly)の内容
 
+![image](https://user-images.githubusercontent.com/22530106/192789223-71344ecc-a10c-4f2a-b2d2-b6378c76ed75.png)
+
 2つのクラスが名称 TaskSampleTask.dll のDLL(Assembly)に含まれています。
 DLL名、クラス名は識別名を含める規定のネーミングルールに従って名付けます。
 このサンプルでは識別名が"SampleTask"なので以下のような名称になります。
@@ -29,7 +31,7 @@ DLL名、クラス名は識別名を含める規定のネーミングルール�
 〇 | クラス         | TaskSampleTask             | リスナの処理実体のクラスです。名称は "Task" + 識別名 になります。
 
 
-## クラス "ListenerConfigSampleTask"
+### クラス "ListenerConfigSampleTask"
 
 このサンプルでは識別名が"SampleTask"なので以下のような名称になります。
 
@@ -48,7 +50,7 @@ DLL名、クラス名は識別名を含める規定のネーミングルール�
 あとはこのリスナで必要なプロパティを設定します。
 このサンプルではプロパティ MonitoringFolderPath に初期値を設定しています。
 
-## クラス "TaskSampleTask"
+### クラス "TaskSampleTask"
 
 このサンプルでは識別名が"SampleTask"なので以下のような名称になります。
 
