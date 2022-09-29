@@ -1,4 +1,4 @@
-# 偽装ちゃん22用拡張リスナのサンプル
+# 偽装ちゃん22用リスナ拡張のサンプル
 
 偽装ちゃん22用拡張リスナのサンプル、TaskSampleTaskです。
 
@@ -11,6 +11,12 @@
 FakeChan22.exeと同じフォルダに Extend フォルダを作成してこの中に TaskSampleTask.dll をコピーしてから偽装ちゃん22を起動してください。  
 偽装ちゃん22のリスナ設定に「SampleTask」が追加されます。
 
+![image](https://user-images.githubusercontent.com/22530106/192790294-6aeab66f-8a90-48f1-a491-b9c8a4fb942d.png)
+
+![image](https://user-images.githubusercontent.com/22530106/192790066-308414b1-286c-43d2-9c9f-8f5452baf236.png)
+
+
+## 拡張リスナコンパイル方法（VisualStudio）
 
 ## 拡張リスナのコンパイル方法（VisualStudio）
 
@@ -21,8 +27,10 @@ Visual Studioでプロジェクトを開いたら参照設定を確認し、Fake
 
 ## DLL(Assembly)の内容
 
-2つのクラスが名称 TaskSampleTask.dll のDLL(Assembly)に含まれています。  
-DLL名、クラス名は識別名を含める、指定のネーミングルールに従って名付けます。  
+![image](https://user-images.githubusercontent.com/22530106/192789223-71344ecc-a10c-4f2a-b2d2-b6378c76ed75.png)
+
+2つのクラスが名称 TaskSampleTask.dll のDLL(Assembly)に含まれています。
+DLL名、クラス名は識別名を含める規定のネーミングルールに従って名付けます。
 このサンプルでは識別名が"SampleTask"なので以下のような名称になります。
 
 識別名適用 | 要素 | 名前 | 説明
@@ -33,7 +41,7 @@ DLL名、クラス名は識別名を含める、指定のネーミングルー�
 〇 | クラス         | TaskSampleTask             | リスナの処理実体のクラスです。名称は "Task" + 識別名 になります。
 
 
-## クラス "ListenerConfigSampleTask"
+### クラス "ListenerConfigSampleTask"
 
 このサンプルでは識別名が"SampleTask"なのでクラス名称が"ListenerConfigSampleTask"になります。
 
@@ -48,7 +56,7 @@ DLL名、クラス名は識別名を含める、指定のネーミングルー�
 あとはこのリスナで必要なプロパティを設定します。  
 このサンプルではプロパティ MonitoringFolderPath に初期値を設定しています。
 
-## クラス "TaskSampleTask"
+### クラス "TaskSampleTask"
 
 このサンプルでは識別名が"SampleTask"なのでクラス名称が"TaskSampleTask"になります。
 
