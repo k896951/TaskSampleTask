@@ -18,7 +18,7 @@ FakeChan22.exeと同じフォルダに Extend フォルダを作成してこの�
 
 ## 拡張リスナのコンパイル方法（VisualStudio）
 
-TaskSampleTask.csのコピーされているフォルダに、偽装ちゃん22のアーカイブに含まれるFakeChan22TaskBase.dllをコピーしてください。  
+ListenerConfigSampleTask.cs と TaskSampleTask.cs のコピーされているフォルダに、偽装ちゃん22のアーカイブに含まれるFakeChan22TaskBase.dllをコピーしてください。  
 Visual Studioでプロジェクトを開いたら参照設定を確認し、FakeChan22TaskBase.dllの登録に問題があれば再登録してください。
 
 問題無ければコンパイルすると、bin/Release もしくは bin/Debug にTaskSampleTask.dll が生成されます。
